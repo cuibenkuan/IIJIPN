@@ -1,6 +1,3 @@
-# 初始化一些公用函数
-import random
-
 
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
@@ -39,5 +36,3 @@ def ones(shape, name=None):
     return tf.Variable(initial, name=name)
 
 
-
-# 这是无print语句版的，也是终结版，完成于2021.8.10.15：54
